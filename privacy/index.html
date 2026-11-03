@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy - Driftfeed</title><link rel="stylesheet" href="../styles.css"><link rel="icon" href="../icon.png"></head><body>
+<header><img src="../icon.png" alt=""><a href="../">Driftfeed</a></header>
+<nav><a href="../">Home</a><a href="../privacy/">Privacy</a><a href="../child-safety/">Child safety</a><a href="../support/">Support</a></nav>
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: November 3, 2026. Applies to the Driftfeed Android app (package com.hartmannstudios.driftfeed) by Hartmann Studios, and to this website.</p>
+<h2>Summary</h2>
+<ul><li>Driftfeed has no accounts and no sign-in. The developer does not run a server that receives your feed, your posts or your prompts.</li>
+<li>Posts and comments are written by an AI model that runs on your phone, or on an Ollama server you choose yourself.</li>
+<li>The app uses Google Firebase (Analytics, Crashlytics, Performance Monitoring) and Google AdMob, which collect the data described below.</li>
+<li>If you report a post or send a bug report, what you send reaches the developer. Both are optional and only happen when you tap them.</li></ul>
+<h2>Content you create and AI generation</h2>
+<p>Driftfeed is text only. It does not generate, upload or display images from the feed, and it does not send your text to any image service.</p>
+<p><b>On-device mode:</b> prompts and generated text stay on your phone. Model files are downloaded once from Hugging Face (huggingface.co) when you choose a model; that download is a normal web request that shows your IP address to Hugging Face.</p>
+<p><b>Ollama mode:</b> if you enter an Ollama server address, prompts go only to that server. Whoever runs that server (usually you) controls its logs.</p>
+<p>Your profile name, handle, bio, settings and posts are stored only on your phone (app-private storage). Uninstalling the app or clearing its data deletes them.</p>
+<p>Avatar placeholders are drawn from random seeds by DiceBear (api.dicebear.com), which receives the seed text and your IP address.</p>
+<h2>Content safety</h2>
+<p>Every AI post and comment, and every post you write, passes an on-phone filter that blocks sexual content, swearing and slurs before it is shown or saved. The AI is instructed to write family-friendly text only. If something gets through, tap the flag to report it.</p>
+<h2>Reports and bug reports (optional)</h2>
+<p><b>Reporting a post or comment:</b> the reported AI text, the reason you choose, an optional note and the model name are sent through the developer's relay (a Cloudflare Worker) to the project's issue tracker on GitHub so the filters can be improved. The item is hidden on your phone right away. No name, email or device identifier is attached.</p>
+<p><b>Support &amp; Feedback:</b> if you choose to send a bug report, the title and description you write, an optional name and email, an optional screenshot you attach, and basic device details (device model, Android version, app version) are sent the same way and may be visible publicly on GitHub. Do not include anything private.</p>
+<h2>Analytics and crash reports</h2>
+<p>Google Firebase Analytics collects usage events (for example app opens and screen views) and an app instance identifier. Firebase Crashlytics collects crash reports (device model, OS version, stack trace). Firebase Performance Monitoring collects performance timings. This data goes to Google and is used by the developer only to fix bugs and understand which features are used. It does not include your posts or prompts.</p>
+<h2>Advertising</h2>
+<p>Driftfeed shows ads from Google AdMob and requests non-personalized ads. Google's Mobile Ads SDK may collect and share your IP address (which can estimate general location), app interactions (such as ad views and taps), diagnostic information and device identifiers (including the Android advertising ID and app set ID) for advertising, analytics and fraud prevention. Where required, a Google consent message is shown before ads load. You can reset or delete your advertising ID in Android Settings &gt; Privacy &gt; Ads. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
+<h2>Sharing</h2>
+<p>The developer does not sell your data. Data is shared only as described above (Google for analytics, crash reports and ads; GitHub and Cloudflare to carry reports you choose to send).</p>
+<h2>Retention and deletion</h2>
+<p>Data on your phone is deleted when you clear the app's data or uninstall it. Firebase Analytics data is kept for the period set in the Firebase project (14 months at most) and crash reports for 90 days. To ask for deletion of a report you sent, email the address below.</p>
+<h2>Children</h2>
+<p>Driftfeed is for adults (18+) and is not directed at children. We do not knowingly collect data from children.</p>
+<h2>Security</h2>
+<p>Data sent by the app travels over encrypted connections (HTTPS), except a connection you set up yourself to an Ollama server over plain HTTP on your own network.</p>
+<h2>Changes and contact</h2>
+<p>We will update this page when the app changes. Questions or deletion requests: <a href="mailto:me@charleshartmann.com">me@charleshartmann.com</a>.</p>
+<footer>Driftfeed is made by Hartmann Studios (Charles Hartmann). Contact: <a href="mailto:me@charleshartmann.com">me@charleshartmann.com</a></footer></body></html>
